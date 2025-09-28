@@ -17,7 +17,7 @@
     function checkPassword() {
       const input = document.getElementById('passwordInput').value.trim();
       if (input.toLowerCase() === "i choose chaos".toLowerCase()) {
-        document.getElementById('result').textContent = "A Fissure In Tranquility. Embrace The Chaos. Partake In The Madness. Strife Awaits.<a href='https://example.com/chaos' target='_blank'> Riot</a>";
+        document.getElementById('result').textContent = "A Fissure In Tranquility. Embrace The Chaos. Partake In The Madness. Strife Awaits.<a href='[https://example.com/chaos](https://chub.ai/characters/NyxForYourNox/chaos-4fb805cf1e34)' target='_blank'> Riot</a>";
       } else {
         document.getElementById('result').textContent = "";
       }
